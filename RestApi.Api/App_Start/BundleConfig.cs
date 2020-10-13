@@ -22,10 +22,6 @@ namespace RestApi.Api
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
-
-            bundles.Add(new ScriptBundle("~/bundles/react").Include(
-                      "~/Scripts/react.production.min.js",
-                      "~/Scripts/react-dom.production.min.js"));
         }
     }
 }

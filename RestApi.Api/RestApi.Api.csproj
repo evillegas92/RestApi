@@ -176,10 +176,9 @@
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Scripts\react-dom.production.min.js" />
-    <Content Include="Scripts\react.production.min.js" />
     <Content Include="Scripts\sep-react.js" />
-    <Content Include="Scripts\src\sep-react.js" />
+    <Content Include="Scripts\src\react\index.js" />
+    <Content Include="Scripts\src\react\reasons-list.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

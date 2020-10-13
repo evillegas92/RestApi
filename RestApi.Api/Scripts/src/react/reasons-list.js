@@ -1,6 +1,6 @@
 ﻿'use strict';
 
-class ReasonsList extends React.Component {
+export class ReasonsList extends React.Component {
 
     constructor(props) {
         super(props);
@@ -39,16 +39,13 @@ class ReasonsList extends React.Component {
         } else {
             return (
                 <ul>
-                    { reasons.map(reason => (
-                        <li key={ reason.Id }>
-                            { reason.Name} - {reason.Value}
+                    {reasons.map(reason => (
+                        <li key={reason.Id}>
+                            {reason.Name} - {reason.Value}
                         </li>
-                    )) }
+                    ))}
                 </ul>
             );
         }
     }
 }
-
-const domContainer = document.querySelector('#sepReactContainer');
-ReactDOM.render(<ReasonsList />, domContainer);
